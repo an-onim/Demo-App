@@ -60,6 +60,7 @@ import ru.social.demo.ui.components.buttons.CButton
 import ru.social.demo.ui.components.buttons.CIconButton
 import ru.social.demo.ui.components.buttons.CIconButtonOutlined
 import ru.social.demo.ui.components.buttons.COutlinedButton
+import ru.social.demo.ui.components.buttons.CSwitch
 import ru.social.demo.ui.components.buttons.CTextButton
 import ru.social.demo.ui.components.buttons.CTonalButton
 import ru.social.demo.ui.components.buttons.ChipButton
@@ -124,6 +125,7 @@ fun LibraryPage(
                 IconsGrid(resources)
             }
 
+            SwitchTest()
             ChipsTest()
             TextFieldsTest()
             ButtonsTest()
@@ -204,7 +206,24 @@ private fun IconsGrid(resources: List<Pair<String, Int>>) {
 }
 
 @Composable
+private fun SwitchTest() {
+
+    OutlinedContainer(
+        parentWidth = true,
+        paddingHorizontal = 16.dp,
+        paddingVertical = 16.dp
+    ) {
+        Row {
+            CSwitch()
+            CSwitch(enabled = false)
+        }
+    }
+
+}
+
+@Composable
 private fun ChipsTest() {
+
 
     val items = listOf("Female", "Male", "Other")
     val selected = remember { mutableStateOf("Male") }

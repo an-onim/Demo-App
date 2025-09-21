@@ -13,8 +13,10 @@ import androidx.compose.ui.graphics.BlendMode
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
+import ru.social.demo.R
 import ru.social.demo.ui.components.containers.DefaultRoundedContainer
 import ru.social.demo.ui.theme.SDTheme
 import ru.social.demo.utils.conditional
@@ -87,6 +89,8 @@ private fun Image(
         model = url,
         contentDescription = null,
         contentScale = ContentScale.Crop,
-        colorFilter = colorFilter
+        colorFilter = colorFilter,
+        placeholder = painterResource(R.drawable.img_placeholder),
+        error = painterResource(R.drawable.img_placeholder)
     )
 }
