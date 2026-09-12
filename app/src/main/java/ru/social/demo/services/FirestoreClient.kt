@@ -1,9 +1,9 @@
 package ru.social.demo.services
 
 import android.util.Log
+import com.google.firebase.Firebase
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.firestore.ktx.firestore
-import com.google.firebase.ktx.Firebase
+import com.google.firebase.firestore.firestore
 import ru.social.demo.data.model.BaseModel
 
 object FsPath {

@@ -9,6 +9,7 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+        includeBuild("build-logic")
     }
 }
 dependencyResolutionManagement {
@@ -19,6 +20,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SocialDemo"
+rootProject.name = "DemoApp"
 include(":app")
- 
+include(":applibrary")
+include(":core:ui")
