@@ -56,7 +56,7 @@ androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
 androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
 androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
 androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata" }
-#androidx-compose-material-navigation = { group = "androidx.compose.material", name = "material-navigation" }
+androidx-compose-material-navigation = { group = "androidx.compose.material", name = "material-navigation" }
 androidx-material-icons = { module = "androidx.compose.material:material-icons-extended" }
 
 # Navigation

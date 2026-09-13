@@ -1,8 +1,8 @@
 package ru.social.demo
 
-import ru.social.demo.base.BaseEvent
-import ru.social.demo.base.BaseViewState
-import ru.social.demo.data.model.User
+import ru.social.app.data.model.User
+import ru.social.core.base.BaseEvent
+import ru.social.core.base.BaseViewState
 
 class MainContract {
 

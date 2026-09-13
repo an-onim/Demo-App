@@ -23,4 +23,8 @@ dependencyResolutionManagement {
 rootProject.name = "DemoApp"
 include(":app")
 include(":applibrary")
-include(":core:ui")
+include(":core:base")
+include(":core:network")
+include(":data")
+include(":domain")
+include(":ui")

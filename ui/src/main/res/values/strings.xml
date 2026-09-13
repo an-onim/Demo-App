@@ -1,0 +1,77 @@
+<resources>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="post_create">Create</string>
+    <string name="post_edit">Edit</string>
+    <string name="text_field_placeholder">Enter text here</string>
+    <string name="required">* Required</string>
+    <string name="details">Details</string>
+    <string name="friends">Friends</string>
+    <string name="teams">Teams</string>
+    <string name="worlds">Worlds</string>
+    <string name="characters">Characters</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="image_url">Image url</string>
+    <string name="birthday">Birthday</string>
+    <string name="signIn">Sign In</string>
+    <string name="signInHost">Sign In as host</string>
+    <string name="signUp">Sign Up</string>
+    <string name="logout">Log out</string>
+    <string name="finish">Finish</string>
+
+
+<!--    Wiki-->
+    <string name="wiki_media">Media</string>
+    <string name="wiki_media_desc">All media content in one place</string>
+    <string name="wiki_folders">Folders</string>
+    <string name="wiki_folders_desc">Let’s start sorting things out!</string>
+
+    <string name="wiki_compendium">Compendium</string>
+    <string name="wiki_compendium_desc">Main rules, instruments and etc</string>
+    <string name="wiki_event_desc">Information about events you are participating in </string>
+    <string name="wiki_world_desc">All about your worlds</string>
+    <string name="wiki_character_desc">All about your creations</string>
+    <string name="wiki_tales">Legendarium</string>
+    <string name="wiki_tales_desc">A collection of legends and fairy tales</string>
+
+<!--    Compendium details-->
+    <string name="class_data">HP dice: d%1$d\nCan use spellcasting from lvl: %2$s</string>
+    <string name="race_data">Size: %1$s\nSpeed: %2$d</string>
+    <string name="monster_data">Size: %1$s\nType: %2$s\nSubtype: %3$s\nXP: %4$d</string>
+    <string name="flavor">Flavor description</string>
+    <string name="age">Age</string>
+    <string name="traits">Traits</string>
+    <string name="languages">Languages</string>
+    <string name="subraces">Subraces</string>
+    <string name="subclasses">Subclasses</string>
+    <string name="abilities">Abilities</string>
+    <string name="proficiencies">Proficiencies</string>
+    <string name="spellcasting">Spellcasting</string>
+
+
+<!--    Post editor-->
+    <string name="post_type_default">Post</string>
+    <string name="post_type_event">Event</string>
+    <string name="post_type_character">Character</string>
+
+
+<!--    Profile-->
+    <string name="share_profile">Share profile…</string>
+    <string name="add_friends">Add friends</string>
+    <string name="add_to_friends">Add to friends</string>
+    <string name="gender">Gender: %1$s</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+
+
+<!--    Empty and error states-->
+    <string name="empty_title">Oh, so empty!</string>
+    <string name="no_posts_decs">As soon as you or your friends do something in the application, it will be here</string>
+    <string name="no_profile_access">No access to profile.\nPlease, sign up or sign in</string>
+    <string name="no_friends_desc">No friends yet</string>
+    <string name="no_desc">No %1$s yet</string>
+    <string name="error_loading_desc">Error while loading data</string>
+</resources>

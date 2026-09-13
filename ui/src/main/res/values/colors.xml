@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="error">#F44336</color>
+
+    <color name="avatar_blue">#FF9DACD4</color>
+    <color name="avatar_purple">#FFBC9DD4</color>
+    <color name="avatar_green">#FF9DD4C7</color>
+
+    <color name="grey_filter">#80FFFFFF</color>
+    <color name="status_active">#FF7DAC75</color>
+    <color name="status_inactive">#FF79716D</color>
+
+    <color name="wiki_compendium">#FFFFF3DD</color>
+    <color name="wiki_event">#FFDEE6FC</color>
+    <color name="wiki_character">#FFE5F3F3</color>
+    <color name="wiki_world">#FFEDF3E5</color>
+    <color name="wiki_tale">#FFFFE7E1</color>
+</resources>

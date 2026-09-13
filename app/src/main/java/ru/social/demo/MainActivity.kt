@@ -6,9 +6,8 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
 import dagger.hilt.android.AndroidEntryPoint
-import ru.social.demo.data.SharedPrefs
-import ru.social.demo.ui.components.BottomBar
-import ru.social.demo.ui.theme.AppTheme
+import ru.social.core.base.store.SharedPrefs
+import ru.social.demo.ui.BottomBar
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -22,7 +21,7 @@ class MainActivity : ComponentActivity() {
 
         enableEdgeToEdge()
         setContent {
-            AppTheme {
+            _root_ide_package_.ru.social.core.ui.common.theme.AppTheme {
                 BottomBar(needAuth)
             }
         }

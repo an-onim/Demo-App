@@ -16,6 +16,11 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:base"))
+    implementation(project(":ui"))
+    implementation(project(":data"))
+//    implementation(project(":core:navigation"))
+
     implementation(platform(libs.androidx.compose.bom))
 
     implementation(libs.androidx.lifecycle.runtime.ktx)

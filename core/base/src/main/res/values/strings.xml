@@ -1,0 +1,8 @@
+<resources>
+    <string name="home">Main</string>
+    <string name="library">Lib</string>
+    <string name="wiki">Wiki</string>
+    <string name="events">Events</string>
+    <string name="profile">Profile</string>
+    <string name="post">Post</string>
+</resources>

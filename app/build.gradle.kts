@@ -2,9 +2,6 @@ plugins {
     alias(libs.plugins.convention.app.library)
     alias(libs.plugins.gms)
     alias(libs.plugins.compose.compiler)
-
-    kotlin("plugin.serialization") version "2.0.21"
-    id("kotlin-parcelize")
 }
 
 android {
@@ -29,20 +26,15 @@ android {
 }
 
 dependencies {
-    implementation(platform(libs.androidx.compose.bom))
+    implementation(project(":core:base"))
+    implementation(project(":ui"))
+    implementation(project(":data"))
+//    implementation(project(":core:navigation"))
 
+    implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.appcompat)
     implementation(libs.bundles.lifecycle)
     implementation(libs.bundles.compose)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.runtime.livedata)
-
-    implementation(libs.bundles.retrofit)
-    implementation(libs.bundles.coil)
-
-    implementation(platform(libs.firebase.bom))
-    implementation(libs.bundles.firebase)
-
-    implementation(libs.kotlinx.serialization)
-    implementation(libs.gson)
 }

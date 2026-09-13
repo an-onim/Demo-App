@@ -7,12 +7,12 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
-import ru.social.demo.base.EventHandler
-import ru.social.demo.data.SharedPrefs
-import ru.social.demo.data.model.User
-import ru.social.demo.services.FirestoreClient
-import ru.social.demo.services.FsPath
-import ru.social.demo.utils.NetworkUtils
+import ru.social.app.data.model.User
+import ru.social.app.data.network.firebase.FirestoreClient
+import ru.social.app.data.network.firebase.FsPath
+import ru.social.core.base.NetworkUtils
+import ru.social.core.base.EventHandler
+import ru.social.core.base.store.SharedPrefs
 import javax.inject.Inject
 
 @HiltViewModel
